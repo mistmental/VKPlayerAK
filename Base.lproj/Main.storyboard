@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="QPL-Nf-Zbm">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <scenes>
+        <!--Cache View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="CacheViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Yha-Dm-koP"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="454" y="-1036"/>
+        </scene>
+        <!--Login View Controller-->
+        <scene sceneID="pCl-yL-4KY">
+            <objects>
+                <viewController id="QPL-Nf-Zbm" customClass="LoginViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qd4-AS-lBh"/>
+                        <viewControllerLayoutGuide type="bottom" id="7vv-9S-RKN"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Cnu-PK-Vh2">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ral-cx-byn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-158" y="-314"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="ph9-ae-6Zr">
+            <objects>
+                <navigationController id="gyo-Q6-hWh" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="aWY-nV-TIH">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="cgV-Rk-h8S" kind="relationship" relationship="rootViewController" id="tuX-dw-fL5"/>
+                        <segue destination="cgV-Rk-h8S" kind="push" id="SEA-0d-8gf"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vuU-vI-PJf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="941" y="-378"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="SLo-Fw-Cum">
+            <objects>
+                <navigationController id="4EW-aa-ZpT" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="GE1-E6-qjy">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </textAttributes>
+                        <connections>
+                            <outlet property="delegate" destination="4EW-aa-ZpT" id="JgH-WL-fCm"/>
+                        </connections>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Qxz-IL-5gO" kind="relationship" relationship="rootViewController" id="usU-4h-9ga"/>
+                        <segue destination="Qxz-IL-5gO" kind="modal" id="Ruw-94-7pd"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kxq-d2-Bq9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="244" y="421"/>
+        </scene>
+        <!--Music View Controller-->
+        <scene sceneID="H1N-ds-p4X">
+            <objects>
+                <viewController id="Qxz-IL-5gO" customClass="MusicViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="PNB-qK-yfE"/>
+                        <viewControllerLayoutGuide type="bottom" id="gt7-aS-Pqs"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Aqa-0S-Mwo">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="hLu-RS-agF"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oW3-OK-0ST" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="941" y="295"/>
+        </scene>
+        <!--Music Player View Controller-->
+        <scene sceneID="dvC-fu-VhI">
+            <objects>
+                <viewController storyboardIdentifier="MusicPlayerViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="cgV-Rk-h8S" customClass="MusicPlayerViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0Ep-Qy-610"/>
+                        <viewControllerLayoutGuide type="bottom" id="BUj-nY-OLQ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="oE5-Jm-Pk6">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="mzY-4r-9na"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0o5-1T-lCG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1771" y="-100"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="tuX-dw-fL5"/>
+        <segue reference="usU-4h-9ga"/>
+    </inferredMetricsTieBreakers>
+</document>
